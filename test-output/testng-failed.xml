@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="launchbrowser(failed)">
+  <test thread-count="5" name="Test(failed)">
     <groups>
       <run>
         <include name="smoke"/>
@@ -11,8 +11,10 @@
       <class name="testing_maven.NewTest">
         <methods>
           <include name="launchbrowser"/>
+          <include name="launchbrowserWithWrongUserName"/>
+          <include name="recruitment"/>
         </methods>
       </class> <!-- testing_maven.NewTest -->
     </classes>
-  </test> <!-- launchbrowser(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

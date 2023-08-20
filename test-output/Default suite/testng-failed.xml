@@ -7,8 +7,8 @@
         <methods>
           <include name="launchbrowser"/>
           <include name="Setup"/>
-          <include name="launchbrowserWithWrongUserName"/>
           <include name="demostore"/>
+          <include name="recruitment"/>
           <include name="CloseBrowser"/>
         </methods>
       </class> <!-- testing_maven.NewTest -->
